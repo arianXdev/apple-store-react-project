@@ -1,1 +1,11 @@
-{}
+{
+	"Store": "Store",
+	"iPhone": "iPhone",
+	"iPad": "iPad",
+	"Mac": "Mac",
+	"Watch": "Watch",
+	"AirPods": "AirPods",
+	"TV & Home": "TV & Home",
+	"Accessories": "Accessories",
+	"Support": "Support"
+}

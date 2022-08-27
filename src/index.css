@@ -36,3 +36,16 @@ a {
 a:hover {
 	text-decoration: underline;
 }
+
+.container {
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+.container-lg {
+	max-width: 1440px;
+}
+
+button {
+	cursor: pointer;
+}

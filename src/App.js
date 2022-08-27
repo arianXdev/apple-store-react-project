@@ -1,5 +1,7 @@
 import { useTranslation } from "react-i18next";
 
+import { Navbar } from "./components";
+
 import "./App.css";
 
 const App = () => {
@@ -12,7 +14,11 @@ const App = () => {
 		localStorage.setItem("Language", language);
 	};
 
-	return <div className="App"></div>;
+	return (
+		<div className="App">
+			<Navbar />
+		</div>
+	);
 };
 
 export default App;
