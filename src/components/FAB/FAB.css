@@ -1,0 +1,11 @@
+.FAB {
+	position: fixed !important;
+}
+
+.FAB > button {
+	background-color: var(--primary-color);
+}
+
+.FAB > button:hover {
+	background-color: #111;
+}

@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 
-import { Navbar } from "./components";
+import { Navbar, FAB } from "./components";
 
 import "./App.css";
 
@@ -17,6 +17,8 @@ const App = () => {
 	return (
 		<div className="App">
 			<Navbar />
+
+			<FAB changeLanguage={changeLanguage} />
 		</div>
 	);
 };
