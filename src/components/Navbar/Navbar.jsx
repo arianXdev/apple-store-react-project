@@ -20,31 +20,28 @@ const Navbar = () => {
 						<FontAwesomeIcon icon={faApple} color="#d7d7d7" className={styles.logo} />
 					</Link>
 
-					<NavLink className={styles.navItem} style={activeNavItem} to="/store">
-						{t("Store")}
-					</NavLink>
-					<NavLink className={styles.navItem} style={activeNavItem} to="/mac">
+					<NavLink className={styles.navItem} style={activeNavItem} to="/store/mac">
 						{t("Mac")}
 					</NavLink>
-					<NavLink className={styles.navItem} style={activeNavItem} to="/ipad">
+					<NavLink className={styles.navItem} style={activeNavItem} to="/store/ipad">
 						{t("iPad")}
 					</NavLink>
-					<NavLink className={styles.navItem} style={activeNavItem} to="/iphone">
+					<NavLink className={styles.navItem} style={activeNavItem} to="/store/iphone">
 						{t("iPhone")}
 					</NavLink>
-					<NavLink className={styles.navItem} style={activeNavItem} to="/watch">
+					<NavLink className={styles.navItem} style={activeNavItem} to="/store/watch">
 						{t("Watch")}
 					</NavLink>
-					<NavLink className={styles.navItem} style={activeNavItem} to="/airpods">
+					<NavLink className={styles.navItem} style={activeNavItem} to="/store/airpods">
 						{t("AirPods")}
 					</NavLink>
-					<NavLink className={styles.navItem} style={activeNavItem} to="/tv">
+					<NavLink className={styles.navItem} style={activeNavItem} to="/store/tv">
 						{t("TV & Home")}
 					</NavLink>
-					<NavLink className={styles.navItem} style={activeNavItem} to="/accessories">
+					<NavLink className={styles.navItem} style={activeNavItem} to="/store/accessories">
 						{t("Accessories")}
 					</NavLink>
-					<NavLink className={styles.navItem} style={activeNavItem} to="/support">
+					<NavLink className={styles.navItem} style={activeNavItem} to="/store/support">
 						{t("Support")}
 					</NavLink>
 
