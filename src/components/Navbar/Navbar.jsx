@@ -44,7 +44,7 @@ const Navbar = () => {
 						<NavLink className={styles.navItem} style={activeNavItem} to="/store/accessories">
 							{t("Accessories")}
 						</NavLink>
-						<NavLink className={styles.navItem} style={activeNavItem} to="/store/support">
+						<NavLink className={styles.navItem} style={activeNavItem} to="/support">
 							{t("Support")}
 						</NavLink>
 

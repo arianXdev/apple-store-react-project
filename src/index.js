@@ -21,7 +21,7 @@ root.render(
 					<Route path="/store/airpods" element={<AirPods />} />
 					<Route path="/store/tv" element={<TV />} />
 					<Route path="/store/accessories" element={<Accessories />} />
-					<Route path="/store/support" element={<Support />} />
+					<Route path="/support" element={<Support />} />
 				</Route>
 			</Routes>
 		</BrowserRouter>
