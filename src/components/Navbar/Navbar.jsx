@@ -10,7 +10,7 @@ const Navbar = () => {
 	const { t, i18n } = useTranslation();
 
 	return (
-		<nav className={styles.navbar}>
+		<nav className={styles.navbar} dir={t("dir")}>
 			<div className="container">
 				<div className={styles.nav}>
 					<Link to="/" className={styles.logoLink}>
