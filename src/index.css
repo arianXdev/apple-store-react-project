@@ -20,11 +20,14 @@
 }
 
 * {
+	outline: none;
 	box-sizing: border-box;
 }
 
 body {
 	font-family: var(--main-font);
+	-webkit-tap-highlight-color: transparent;
+	-moz-tap-highlight-color: transparent;
 }
 
 a {
