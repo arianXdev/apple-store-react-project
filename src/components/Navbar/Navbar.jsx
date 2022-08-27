@@ -9,6 +9,9 @@ import styles from "./Navbar.module.css";
 const Navbar = () => {
 	const { t, i18n } = useTranslation();
 
+	// handles if one of the nav items checked
+	const activeNavItem = ({ isActive }) => (isActive ? { fontSize: "0.8em", color: "#fff" } : undefined);
+
 	return (
 		<nav className={styles.navbar} dir={t("dir")}>
 			<div className="container">
@@ -17,31 +20,31 @@ const Navbar = () => {
 						<FontAwesomeIcon icon={faApple} color="#d7d7d7" className={styles.logo} />
 					</Link>
 
-					<NavLink className={styles.navItem} to="/store">
+					<NavLink className={styles.navItem} style={activeNavItem} to="/store">
 						{t("Store")}
 					</NavLink>
-					<NavLink className={styles.navItem} to="/mac">
+					<NavLink className={styles.navItem} style={activeNavItem} to="/mac">
 						{t("Mac")}
 					</NavLink>
-					<NavLink className={styles.navItem} to="/ipad">
+					<NavLink className={styles.navItem} style={activeNavItem} to="/ipad">
 						{t("iPad")}
 					</NavLink>
-					<NavLink className={styles.navItem} to="/iphone">
+					<NavLink className={styles.navItem} style={activeNavItem} to="/iphone">
 						{t("iPhone")}
 					</NavLink>
-					<NavLink className={styles.navItem} to="/watch">
+					<NavLink className={styles.navItem} style={activeNavItem} to="/watch">
 						{t("Watch")}
 					</NavLink>
-					<NavLink className={styles.navItem} to="/airpods">
+					<NavLink className={styles.navItem} style={activeNavItem} to="/airpods">
 						{t("AirPods")}
 					</NavLink>
-					<NavLink className={styles.navItem} to="/tv">
+					<NavLink className={styles.navItem} style={activeNavItem} to="/tv">
 						{t("TV & Home")}
 					</NavLink>
-					<NavLink className={styles.navItem} to="/accessories">
+					<NavLink className={styles.navItem} style={activeNavItem} to="/accessories">
 						{t("Accessories")}
 					</NavLink>
-					<NavLink className={styles.navItem} to="/support">
+					<NavLink className={styles.navItem} style={activeNavItem} to="/support">
 						{t("Support")}
 					</NavLink>
 
