@@ -1,0 +1,57 @@
+.App {
+	font-size: 16px;
+	padding: 70px 25px 0 25px;
+}
+
+.Intro {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.IntroText {
+	width: 70%;
+}
+
+.IntroText[language="FA"] {
+	width: 60%;
+	font-size: 0.75em;
+}
+
+.IntroTitle {
+	font-size: 2.8em;
+	font-weight: 700;
+	line-height: 1.3;
+}
+
+.IntroSubtitle {
+	display: inline;
+	font-size: 0.9em;
+	font-weight: 100;
+	color: var(--sub-text-color) !important;
+}
+
+.IntroSupport {
+	width: 21%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+.IntroSupport[language="FA"] {
+	width: 30%;
+	line-height: 1.6;
+}
+
+.IntroSupportText {
+	font-size: 0.92em;
+	font-weight: 700;
+	color: var(--text-color);
+}
+
+.IntroSupportTextFA {
+	font-weight: 700;
+	font-size: 0.85em;
+}

@@ -55,7 +55,9 @@ const Navbar = () => {
 				</div>
 			</nav>
 
-			<Outlet />
+			<div className="container">
+				<Outlet />
+			</div>
 
 			<FAB />
 		</>
