@@ -44,3 +44,22 @@
 .bagButton:hover {
 	color: #fff;
 }
+
+@media only screen and (max-width: 768px) {
+	.nav {
+		display: block;
+	}
+
+	.logo {
+		font-size: 1.4em;
+	}
+
+	.bagButton {
+		position: absolute;
+		right: 20px;
+	}
+
+	.navItem {
+		display: none;
+	}
+}
