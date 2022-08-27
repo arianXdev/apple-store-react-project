@@ -1,0 +1,46 @@
+.navbar {
+	font: 16px;
+	padding: 9px 0;
+	background-color: var(--primary-color);
+}
+
+.logo {
+	font-size: 1.1em;
+	transition: color 0.2s ease !important;
+}
+
+.logoLink .logo:hover {
+	color: #fff !important;
+}
+
+.nav {
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.navItem {
+	font-size: 0.73em;
+	color: var(--gray-color);
+	transition: color 0.2s ease !important;
+}
+
+.navItem:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.bagButton {
+	font-size: 1.2em;
+	border: none;
+	color: var(--gray-color);
+	background: transparent;
+	transition: color 0.2s ease !important;
+}
+
+.bagButton:hover {
+	color: #fff;
+}
