@@ -1,0 +1,38 @@
+/* Import All English and Persian Fonts */
+@import url("./assets/fonts/font-face.css");
+
+:root {
+	/* Colors */
+	--primary-color: #313132;
+	--link-color: #2c80d4;
+	--text-color: #1d1d1f;
+	--sub-text-color: #6e6e73;
+	--blue-color: #007aff;
+	--red-color: #ff0053;
+	--green-color: #69cc46;
+	--purple-color: #c069ff;
+	--gray-color: #c5c5c9;
+
+	/* Fonts */
+	--main-font: "SF Pro Text", "SF Pro Display", IranYekan, KalamehWeb, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	--iranyekan-font: IranYekan, KalamehWeb, sans-serif;
+	--kalameh-font: KalamehWeb, IranYekan, sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: var(--main-font);
+}
+
+a {
+	color: var(--link-color);
+	text-decoration: none;
+	font-family: var(--main-font);
+}
+
+a:hover {
+	text-decoration: underline;
+}

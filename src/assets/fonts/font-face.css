@@ -1,0 +1,264 @@
+﻿@font-face {
+	font-family: IRANYekan;
+	font-style: normal;
+	font-weight: bold;
+	src: url("./IranYekan/woff/IRANYekanWebBold.woff") format("woff"), url("./IranYekan/woff2/IRANYekanWebBold.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: IRANYekan;
+	font-style: normal;
+	font-weight: 100;
+	src: url("./IranYekan/woff/IRANYekanWebThin.woff") format("woff"), url("./IranYekan/woff2/IRANYekanWebThin.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: IRANYekan;
+	font-style: normal;
+	font-weight: 300;
+	src: url("./IranYekan/woff/IRANYekanWebThin.woff") format("woff"), url("./IranYekan/woff2/IRANYekanWebThin.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: IRANYekan;
+	font-style: normal;
+	font-weight: normal;
+	src: url("./IranYekan/woff/IRANYekanWebRegular.woff") format("woff"), url("./IranYekan/woff2/IRANYekanWebRegular.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: IRANYekan;
+	font-style: normal;
+	font-weight: 500;
+	src: url("./IranYekan/woff/IRANYekanWebMedium.woff") format("woff"), url("./IranYekan/woff2/IRANYekanWebMedium.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: IRANYekan;
+	font-style: normal;
+	font-weight: 800;
+	src: url("./IranYekan/woff/IRANYekanWebExtraBold.woff") format("woff"), url("./IranYekan/woff2/IRANYekanWebExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: IRANYekan;
+	font-style: normal;
+	font-weight: 850;
+	src: url("./IranYekan/woff/IRANYekanWebBlack.woff") format("woff"), url("./IranYekan/woff2/IRANYekanWebBlack.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: IRANYekan;
+	font-style: normal;
+	font-weight: 900;
+	src: url("./IranYekan/woff/IRANYekanWebExtraBlack.woff") format("woff"), url("./IranYekan/woff2/IRANYekanWebExtraBlack.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: KalamehWeb;
+	font-style: normal;
+	font-weight: 100;
+	src: url("./Kalameh/woff2/KalamehWeb-Thin.woff2") format("woff2"), url("./Kalameh/woff/KalamehWeb-Thin.woff") format("woff");
+}
+
+@font-face {
+	font-family: KalamehWeb;
+	font-style: normal;
+	font-weight: 900;
+	src: url("./Kalameh/woff2/KalamehWeb-Black.woff2") format("woff2"), url("./Kalameh/woff/KalamehWeb-Black.woff") format("woff");
+}
+
+@font-face {
+	font-family: KalamehWeb;
+	font-style: normal;
+	font-weight: bold;
+	src: url("./Kalameh/woff2/KalamehWeb-Bold.woff2") format("woff2"), url("./Kalameh/woff/KalamehWeb-Bold.woff") format("woff");
+}
+
+@font-face {
+	font-family: KalamehWeb;
+	font-style: normal;
+	font-weight: normal;
+	src: url("./Kalameh/woff2/KalamehWeb-Regular.woff2") format("woff2"), url("./Kalameh/woff/KalamehWeb-Regular.woff") format("woff");
+}
+
+/* SF Apple Fonts */
+@font-face {
+	font-family: "SF Pro Display";
+	src: local("SFProDisplay Black"), local("SFProDisplay-Black"), url("SF/SFProDisplay-Black.woff2") format("woff2"), url("SF/SFProDisplay-Black.woff") format("woff"),
+		url("SF/SFProDisplay-Black.ttf") format("truetype");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF Pro Display";
+	src: local("SFProDisplay Bold"), local("SFProDisplay-Bold"), url("SF/SFProDisplay-Bold.woff2") format("woff2"), url("SF/SFProDisplay-Bold.woff") format("woff"),
+		url("SF/SFProDisplay-Bold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF Pro Display";
+	src: local("SFProDisplay Heavy"), local("SFProDisplay-Heavy"), url("SF/SFProDisplay-Heavy.woff2") format("woff2"), url("SF/SFProDisplay-Heavy.woff") format("woff"),
+		url("SF/SFProDisplay-Heavy.ttf") format("truetype");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF Pro Display";
+	src: local("SFProDisplay Light"), local("SFProDisplay-Light"), url("SF/SFProDisplay-Light.woff2") format("woff2"), url("SF/SFProDisplay-Light.woff") format("woff"),
+		url("SF/SFProDisplay-Light.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF Pro Display";
+	src: local("SFProDisplay Regular"), local("SFProDisplay-Regular"), url("SF/SFProDisplay-Regular.woff2") format("woff2"), url("SF/SFProDisplay-Regular.woff") format("woff"),
+		url("SF/SFProDisplay-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF Pro Display";
+	src: local("SFProDisplay Medium"), local("SFProDisplay-Medium"), url("SF/SFProDisplay-Medium.woff2") format("woff2"), url("SF/SFProDisplay-Medium.woff") format("woff"),
+		url("SF/SFProDisplay-Medium.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF Pro Display";
+	src: local("SFProDisplay Thin"), local("SFProDisplay-Thin"), url("SF/SFProDisplay-Thin.woff2") format("woff2"), url("SF/SFProDisplay-Thin.woff") format("woff"),
+		url("SF/SFProDisplay-Thin.ttf") format("truetype");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF Pro Display";
+	src: local("SFProDisplay Ultralight"), local("SFProDisplay-Ultralight"), url("SF/SFProDisplay-Ultralight.woff2") format("woff2"),
+		url("SF/SFProDisplay-Ultralight.woff") format("woff"), url("SF/SFProDisplay-Ultralight.ttf") format("truetype");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SFRounded";
+	src: local("SFRounded Bold"), local("SFRounded-Bold"), url("SF/SFRounded-Bold.woff2") format("woff2"), url("SF/SFRounded-Bold.woff") format("woff"),
+		url("SF/SFRounded-Bold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SFRounded";
+	src: local("SFRounded Light"), local("SFRounded-Light"), url("SF/SFRounded-Light.woff2") format("woff2"), url("SF/SFRounded-Light.woff") format("woff"),
+		url("SF/SFRounded-Light.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SFRounded";
+	src: local("SFRounded Regular"), local("SFRounded-Regular"), url("SF/SFRounded-Regular.woff2") format("woff2"), url("SF/SFRounded-Regular.woff") format("woff"),
+		url("SF/SFRounded-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SFRounded";
+	src: local("SFRounded Thin"), local("SFRounded-Thin"), url("SF/SFRounded-Thin.woff2") format("woff2"), url("SF/SFRounded-Thin.woff") format("woff"),
+		url("SF/SFRounded-Thin.ttf") format("truetype");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF Pro";
+	src: local("SF Pro Italic"), local("SFPro-RegularItalic"), url("SF/SFPro-RegularItalic.woff2") format("woff2"), url("SF/SFPro-RegularItalic.woff") format("woff"),
+		url("SF/SFPro-RegularItalic.ttf") format("truetype");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF Pro Text";
+	src: local("SFProText Black"), local("SFProText-Black"), url("SF/SFProText-Black.woff2") format("woff2"), url("SF/SFProText-Black.woff") format("woff"),
+		url("SF/SFProText-Black.ttf") format("truetype");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF Pro Text";
+	src: local("SFProText Light"), local("SFProText-Light"), url("SF/SFProText-Light.woff2") format("woff2"), url("SF/SFProText-Light.woff") format("woff"),
+		url("SF/SFProText-Light.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF Pro Text";
+	src: local("SFProText Bold"), local("SFProText-Bold"), url("SF/SFProText-Bold.woff2") format("woff2"), url("SF/SFProText-Bold.woff") format("woff"),
+		url("SF/SFProText-Bold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF Pro Text";
+	src: local("SFProText Medium"), local("SFProText-Medium"), url("SF/SFProText-Medium.woff2") format("woff2"), url("SF/SFProText-Medium.woff") format("woff"),
+		url("SF/SFProText-Medium.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF Pro Text";
+	src: local("SFProText Regular"), local("SFProText-Regular"), url("SF/SFProText-Regular.woff2") format("woff2"), url("SF/SFProText-Regular.woff") format("woff"),
+		url("SF/SFProText-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF Pro Text";
+	src: local("SFProText Thin"), local("SFProText-Thin"), url("SF/SFProText-Thin.woff2") format("woff2"), url("SF/SFProText-Thin.woff") format("woff"),
+		url("SF/SFProText-Thin.ttf") format("truetype");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF Pro Text";
+	src: local("SFProText Ultralight"), local("SFProText-Ultralight"), url("SF/SFProText-Ultralight.woff2") format("woff2"), url("SF/SFProText-Ultralight.woff") format("woff"),
+		url("SF/SFProText-Ultralight.ttf") format("truetype");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
