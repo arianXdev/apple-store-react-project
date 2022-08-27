@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslation } from "react-i18next";
 
 import styles from "./Navbar.module.css";
-import { faBagShopping } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
 	const { t, i18n } = useTranslation();
