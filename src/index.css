@@ -38,6 +38,10 @@ a:hover {
 }
 
 .container {
-	max-width: 1440px;
+	max-width: 980px;
 	margin: 0 auto;
+}
+
+.container-lg {
+	max-width: 1440px;
 }
