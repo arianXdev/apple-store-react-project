@@ -1,11 +1,18 @@
+import { useTranslation } from "react-i18next";
+
 import "./App.css";
 
-function App() {
-	return (
-		<div className="App">
-			<h1>Apple Store Online - Apple</h1>
-		</div>
-	);
-}
+const App = () => {
+	const { t, i18n } = useTranslation();
+
+	// Change Language Event Handler
+	const changeLanguage = (language) => {
+		i18n.changeLanguage(language);
+		// Stores language name in local storage to use in next session
+		localStorage.setItem("Language", language);
+	};
+
+	return <div className="App"></div>;
+};
 
 export default App;
