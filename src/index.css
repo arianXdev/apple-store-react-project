@@ -1,3 +1,6 @@
+/* Import All English and Persian Fonts */
+@import url("./assets/fonts/font-face.css");
+
 :root {
 	/* Colors */
 	--primary-color: #313132;

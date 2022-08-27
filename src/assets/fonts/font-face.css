@@ -84,7 +84,7 @@
 
 /* SF Apple Fonts */
 @font-face {
-	font-family: "SFProDisplay";
+	font-family: "SF Pro Display";
 	src: local("SFProDisplay Black"), local("SFProDisplay-Black"), url("SF/SFProDisplay-Black.woff2") format("woff2"), url("SF/SFProDisplay-Black.woff") format("woff"),
 		url("SF/SFProDisplay-Black.ttf") format("truetype");
 	font-weight: 900;
@@ -93,7 +93,7 @@
 }
 
 @font-face {
-	font-family: "SFProDisplay";
+	font-family: "SF Pro Display";
 	src: local("SFProDisplay Bold"), local("SFProDisplay-Bold"), url("SF/SFProDisplay-Bold.woff2") format("woff2"), url("SF/SFProDisplay-Bold.woff") format("woff"),
 		url("SF/SFProDisplay-Bold.ttf") format("truetype");
 	font-weight: bold;
@@ -102,7 +102,7 @@
 }
 
 @font-face {
-	font-family: "SFProDisplay";
+	font-family: "SF Pro Display";
 	src: local("SFProDisplay Heavy"), local("SFProDisplay-Heavy"), url("SF/SFProDisplay-Heavy.woff2") format("woff2"), url("SF/SFProDisplay-Heavy.woff") format("woff"),
 		url("SF/SFProDisplay-Heavy.ttf") format("truetype");
 	font-weight: 900;
@@ -111,7 +111,7 @@
 }
 
 @font-face {
-	font-family: "SFProDisplay";
+	font-family: "SF Pro Display";
 	src: local("SFProDisplay Light"), local("SFProDisplay-Light"), url("SF/SFProDisplay-Light.woff2") format("woff2"), url("SF/SFProDisplay-Light.woff") format("woff"),
 		url("SF/SFProDisplay-Light.ttf") format("truetype");
 	font-weight: 300;
@@ -120,7 +120,7 @@
 }
 
 @font-face {
-	font-family: "SFProDisplay";
+	font-family: "SF Pro Display";
 	src: local("SFProDisplay Regular"), local("SFProDisplay-Regular"), url("SF/SFProDisplay-Regular.woff2") format("woff2"), url("SF/SFProDisplay-Regular.woff") format("woff"),
 		url("SF/SFProDisplay-Regular.ttf") format("truetype");
 	font-weight: normal;
@@ -129,7 +129,7 @@
 }
 
 @font-face {
-	font-family: "SFProDisplay";
+	font-family: "SF Pro Display";
 	src: local("SFProDisplay Medium"), local("SFProDisplay-Medium"), url("SF/SFProDisplay-Medium.woff2") format("woff2"), url("SF/SFProDisplay-Medium.woff") format("woff"),
 		url("SF/SFProDisplay-Medium.ttf") format("truetype");
 	font-weight: 500;
@@ -138,7 +138,7 @@
 }
 
 @font-face {
-	font-family: "SFProDisplay";
+	font-family: "SF Pro Display";
 	src: local("SFProDisplay Thin"), local("SFProDisplay-Thin"), url("SF/SFProDisplay-Thin.woff2") format("woff2"), url("SF/SFProDisplay-Thin.woff") format("woff"),
 		url("SF/SFProDisplay-Thin.ttf") format("truetype");
 	font-weight: 100;
@@ -147,7 +147,7 @@
 }
 
 @font-face {
-	font-family: "SFProDisplay";
+	font-family: "SF Pro Display";
 	src: local("SFProDisplay Ultralight"), local("SFProDisplay-Ultralight"), url("SF/SFProDisplay-Ultralight.woff2") format("woff2"),
 		url("SF/SFProDisplay-Ultralight.woff") format("woff"), url("SF/SFProDisplay-Ultralight.ttf") format("truetype");
 	font-weight: 100;
@@ -201,7 +201,7 @@
 }
 
 @font-face {
-	font-family: "SFProText";
+	font-family: "SF Pro Text";
 	src: local("SFProText Black"), local("SFProText-Black"), url("SF/SFProText-Black.woff2") format("woff2"), url("SF/SFProText-Black.woff") format("woff"),
 		url("SF/SFProText-Black.ttf") format("truetype");
 	font-weight: 900;
@@ -210,7 +210,7 @@
 }
 
 @font-face {
-	font-family: "SFProText";
+	font-family: "SF Pro Text";
 	src: local("SFProText Light"), local("SFProText-Light"), url("SF/SFProText-Light.woff2") format("woff2"), url("SF/SFProText-Light.woff") format("woff"),
 		url("SF/SFProText-Light.ttf") format("truetype");
 	font-weight: 300;
@@ -219,7 +219,7 @@
 }
 
 @font-face {
-	font-family: "SFProText";
+	font-family: "SF Pro Text";
 	src: local("SFProText Bold"), local("SFProText-Bold"), url("SF/SFProText-Bold.woff2") format("woff2"), url("SF/SFProText-Bold.woff") format("woff"),
 		url("SF/SFProText-Bold.ttf") format("truetype");
 	font-weight: bold;
@@ -228,7 +228,7 @@
 }
 
 @font-face {
-	font-family: "SFProText";
+	font-family: "SF Pro Text";
 	src: local("SFProText Medium"), local("SFProText-Medium"), url("SF/SFProText-Medium.woff2") format("woff2"), url("SF/SFProText-Medium.woff") format("woff"),
 		url("SF/SFProText-Medium.ttf") format("truetype");
 	font-weight: 500;
@@ -237,7 +237,7 @@
 }
 
 @font-face {
-	font-family: "SFProText";
+	font-family: "SF Pro Text";
 	src: local("SFProText Regular"), local("SFProText-Regular"), url("SF/SFProText-Regular.woff2") format("woff2"), url("SF/SFProText-Regular.woff") format("woff"),
 		url("SF/SFProText-Regular.ttf") format("truetype");
 	font-weight: normal;
@@ -246,7 +246,7 @@
 }
 
 @font-face {
-	font-family: "SFProText";
+	font-family: "SF Pro Text";
 	src: local("SFProText Thin"), local("SFProText-Thin"), url("SF/SFProText-Thin.woff2") format("woff2"), url("SF/SFProText-Thin.woff") format("woff"),
 		url("SF/SFProText-Thin.ttf") format("truetype");
 	font-weight: 100;
@@ -255,7 +255,7 @@
 }
 
 @font-face {
-	font-family: "SFProText";
+	font-family: "SF Pro Text";
 	src: local("SFProText Ultralight"), local("SFProText-Ultralight"), url("SF/SFProText-Ultralight.woff2") format("woff2"), url("SF/SFProText-Ultralight.woff") format("woff"),
 		url("SF/SFProText-Ultralight.ttf") format("truetype");
 	font-weight: 100;
