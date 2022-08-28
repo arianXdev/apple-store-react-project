@@ -55,5 +55,8 @@ a:hover {
 }
 
 button {
+	outline: none;
+	border: none;
 	cursor: pointer;
+	font-family: var(--main-font);
 }
