@@ -18,5 +18,13 @@
 	"macBookPro16": "MacBook Pro 16",
 	"macMini": "Mac mini",
 	"macStudio": "Mac Studio",
-	"proDisplayXDR": "Pro Display XDR"
+	"proDisplayXDR": "Pro Display XDR",
+	"AddToCart": "Add to Cart",
+	"product-information": "Product Information",
+	"CPU": "CPU",
+	"GPU": "GPU",
+	"RAM": "RAM",
+	"Storage": "Storage",
+	"Year": "Year",
+	"no-data": "Couldn't fetch any data!"
 }

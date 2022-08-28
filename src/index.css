@@ -55,5 +55,13 @@ a:hover {
 }
 
 button {
+	outline: none;
+	border: none;
 	cursor: pointer;
+	font-family: var(--main-font);
+}
+
+/* Default MUI Styles */
+.MuiTypography-root {
+	font-family: var(--main-font) !important;
 }
