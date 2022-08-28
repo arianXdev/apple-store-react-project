@@ -1,0 +1,12 @@
+.ProductsBody {
+	width: 100%;
+	background-color: var(--bg-color);
+}
+
+.products {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+}

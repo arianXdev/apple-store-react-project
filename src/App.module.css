@@ -34,7 +34,7 @@
 .IntroSupport {
 	width: 21%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	align-items: center;
 	font-size: 14px;
 	line-height: 1.4;
@@ -43,6 +43,7 @@
 .IntroSupport[language="FA"] {
 	width: 30%;
 	line-height: 1.6;
+	justify-content: space-between;
 }
 
 .IntroSupportText {
