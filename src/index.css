@@ -6,6 +6,7 @@
 	--primary-color: #313132;
 	--link-color: #2c80d4;
 	--text-color: #1d1d1f;
+	--bg-color: #141414;
 	--sub-text-color: #6e6e73;
 	--blue-color: #007aff;
 	--red-color: #ff0053;
@@ -20,6 +21,8 @@
 }
 
 * {
+	margin: 0;
+	padding: 0;
 	outline: none;
 	box-sizing: border-box;
 }
@@ -47,7 +50,8 @@ a:hover {
 }
 
 .container-lg {
-	max-width: 1440px;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 button {
