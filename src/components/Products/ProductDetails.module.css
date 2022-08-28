@@ -1,5 +1,6 @@
 .ProductPage {
 	font-size: 16px;
+	height: 100%;
 }
 
 .ProductDetails {
@@ -57,4 +58,48 @@
 .AddToCardBtn:hover {
 	background-color: rgb(13, 101, 202);
 	box-shadow: 0 0 30px rgb(0, 119, 255);
+}
+
+.Accordion {
+	padding: 1em 2em;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1) !important;
+	border-radius: 20px !important;
+}
+
+.AccordionDetails {
+	padding: 2em 0;
+}
+
+.AccordionDetailsLeft {
+	width: 70%;
+}
+
+.AccordionDetailsRight {
+	width: 30%;
+}
+
+.AccordionDetailsList {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+
+.AccordionListItem {
+	display: inherit;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #e6e6e6cc;
+	padding: 0 1em;
+}
+
+.AccordionListItem:last-of-type {
+	border-bottom: none;
+}
+
+.AccordionItem {
+}
+
+.AccordionConfigItem {
+	font-size: 1.35em;
+	margin: 1.7em 0;
 }
