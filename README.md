@@ -1,4 +1,4 @@
-# Simple Apple Store Website using React.js - Multilingual (English / Persian)
+# Simple Apple Store Website using React.js - Multilingual (English / Persian) - Back-end by Google Firebase
 
 ## Available Scripts
 
