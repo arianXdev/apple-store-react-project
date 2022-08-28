@@ -25,3 +25,6 @@ yarn-error.log*
 src/assets/fonts/IranYekan
 src/assets/fonts/Kalameh
 src/assets/fonts/SF
+
+# Firebase Config File
+src/services/firebaseConfig.js
