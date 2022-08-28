@@ -1,0 +1,36 @@
+.Mac {
+	font-size: 16px;
+}
+
+.topMain {
+	padding: 3em 2em;
+	background-color: #1c1c1e;
+}
+
+.productsList {
+	display: flex;
+	list-style: none;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.productsItem a {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: var(--gray-color);
+	font-size: 0.9em;
+}
+
+.productsItem:hover a {
+	color: var(--blue-color);
+	text-decoration: none;
+}
+
+.productsImg {
+	max-width: 64px;
+	filter: grayscale(1) invert(1);
+}

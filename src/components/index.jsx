@@ -1,5 +1,7 @@
 export { default as Navbar } from "./Navbar/Navbar";
 export { default as FAB } from "./FAB/FAB";
+export { default as Products } from "./Products/Products";
+export { default as ProductDetails } from "./Products/ProductDetails";
 
 // Pages
 export { default as Mac } from "./Pages/Mac/Mac";

@@ -11,5 +11,12 @@
 	"Support": "Support",
 	"subtitle": "The best way to buy the products you love.",
 	"SupportText": "Need shopping help?",
-	"callSupport": "Ask a Specialist"
+	"callSupport": "Ask a Specialist",
+	"macBookAir": "MacBook Air",
+	"macBookPro13": "MacBook Pro 13",
+	"macBookPro14": "MacBook Pro 14",
+	"macBookPro16": "MacBook Pro 16",
+	"macMini": "Mac mini",
+	"macStudio": "Mac Studio",
+	"proDisplayXDR": "Pro Display XDR"
 }
