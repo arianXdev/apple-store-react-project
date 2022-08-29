@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
+import PropTypes, { oneOfType } from "prop-types";
+
 import styles from "./Product.module.css";
 
 const Product = ({ id, name, dollarPrice, rialPrice, image, mainPage }) => {
@@ -20,6 +22,15 @@ const Product = ({ id, name, dollarPrice, rialPrice, image, mainPage }) => {
 			</Link>
 		</>
 	);
+};
+
+Product.propTypes = {
+	id: oneOfType([PropTypes.string, PropTypes.number]),
+	name: PropTypes.array,
+	dollarPrice: oneOfType([PropTypes.string, PropTypes.number]),
+	rialPrice: PropTypes.string,
+	image: PropTypes.string,
+	mainPage: PropTypes.bool,
 };
 
 export default Product;
