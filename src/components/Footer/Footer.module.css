@@ -1,0 +1,115 @@
+.Footer {
+	padding: 4em 0;
+	padding: 2em 4em;
+	font-size: 16px;
+	background-color: var(--footer-bg-color);
+}
+
+.FooterBreadcrumb {
+	font-size: 0.9em;
+	color: var(--text-color);
+	padding: 1em 0;
+	border-bottom: 1px solid var(--gray-color);
+}
+
+.FooterBreadcrumb a {
+	color: var(--text-color) !important;
+}
+
+.FooterNav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em 0;
+	border-bottom: 1px solid var(--gray-color);
+}
+
+.FooterNavList {
+	padding: 1em 0;
+}
+
+.FooterNavListItem {
+	font-size: 0.82em;
+	padding: 0.7em 0;
+	list-style-type: none;
+}
+
+.FooterNavListItem a {
+	color: var(--text-color) !important;
+}
+
+.FooterNavTitle {
+	font-weight: 900;
+	font-size: 1.1em;
+	list-style-type: disc;
+	text-shadow: 0 0 9px rgba(0, 0, 0, 0.2);
+}
+
+.FooterNavTitle:hover a {
+	text-decoration: none;
+}
+
+.FooterDesc {
+	padding: 1.5em 0;
+	border-bottom: 1px solid var(--gray-color);
+}
+
+.FooterParagraph {
+	line-height: 2;
+	font-size: 0.7em;
+	color: #777;
+}
+
+.FooterCopyRight {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.FooterCopyRight p {
+	padding: 1em 0;
+	font-size: 0.8em;
+	color: #777;
+}
+
+.FooterLinks a {
+	color: #777;
+	font-size: 0.8em;
+	border-left: 1px solid #777;
+	padding: 0 1em;
+}
+
+.FooterLinks a:first-of-type {
+	border-left: none;
+}
+
+@media only screen and (max-width: 768px) {
+	.FooterNav {
+		padding: 0.2em 0.8em;
+		justify-content: center;
+		flex-direction: column;
+		align-items: flex-start;
+		font-size: 20px;
+	}
+
+	.FooterNavList {
+		list-style: none;
+	}
+
+	.FooterParagraph {
+		text-align: justify;
+	}
+
+	.FooterCopyRight {
+		flex-direction: column;
+	}
+
+	.FooterLinks {
+		display: flex;
+		margin-top: 1.5em;
+	}
+
+	.FooterLinks a {
+		padding: 0 0.5em;
+	}
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Navbar, Mac, IPad, IPhone, Watch, AirPods, TV, Accessories, Support, Products, ProductDetails } from "./components";
+import { Navbar, Mac, IPad, IPhone, Watch, AirPods, TV, Accessories, Support, Products, ProductDetails, Footer } from "./components";
 import App from "./App";
 
 import "./helpers/i18next";
@@ -12,8 +12,16 @@ root.render(
 	<React.StrictMode>
 		<BrowserRouter>
 			<Routes>
-				<Route path="/" element={<Navbar />}>
+				<Route
+					path="/"
+					element={
+						<>
+							<Navbar /> <Footer />
+						</>
+					}
+				>
 					<Route index element={<App />} />
+					<Route index element={<Footer />} />
 					<Route path="mac" element={<Mac />}>
 						<Route path=":macId" element={<Products productName="mac" />}>
 							<Route path=":macProductId" element={<ProductDetails />} />
