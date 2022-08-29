@@ -17,6 +17,10 @@
 	justify-content: center;
 }
 
+.ProductDetails__right {
+	max-width: 40%;
+}
+
 .ProductDetails__info {
 	display: flex;
 	flex-direction: column;
@@ -24,6 +28,7 @@
 }
 
 .ProductDetails__title {
+	max-width: max-content;
 	font-size: 1.8em;
 	color: var(--text-color);
 }

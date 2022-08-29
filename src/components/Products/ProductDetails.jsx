@@ -16,6 +16,8 @@ import Spinner from "../Spinner/Spinner";
 const ProductDetails = () => {
 	const params = useParams();
 	const [productInfo, setProductInfo] = useState([]);
+	const [productId, setProductId] = useState("");
+
 	const [expanded, setExpanded] = useState(false);
 	const [t, i18n] = useTranslation();
 
@@ -29,10 +31,19 @@ const ProductDetails = () => {
 	useEffect(
 		() =>
 			onSnapshot(collection(db, params.macId), (snapshot) => {
-				snapshot.docs.filter((doc) => (doc.id === params.macProductId ? doc : false)).map((item) => setProductInfo(item.data()));
+				snapshot.docs
+					.filter((doc) => (doc.id === params.macProductId ? doc : false))
+					.map((item) => {
+						setProductId(item.id);
+						setProductInfo(item.data());
+					});
 			}),
 		[]
 	);
+
+	const handleAddToCart = (e) => {
+		console.log(e.target);
+	};
 
 	return (
 		<div className={styles.ProductPage}>
@@ -51,7 +62,9 @@ const ProductDetails = () => {
 								{productInfo.rialPrice && t("dir") === "rtl" ? " تومان " : ""}
 							</p>
 						</div>
-						<button className={styles.AddToCardBtn}>{t("AddToCart")}</button>
+						<button onClick={(e) => handleAddToCart(e)} className={styles.AddToCardBtn}>
+							{t("AddToCart")}
+						</button>
 					</div>
 				</section>
 
