@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import styles from "./Product.module.css";
 
 const Product = ({ id, name, dollarPrice, rialPrice, image, mainPage }) => {
+	// eslint-disable-next-line
 	const [t, i18n] = useTranslation();
 
 	return (

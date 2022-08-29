@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { doc, onSnapshot, collection } from "firebase/firestore";
+import { onSnapshot, collection } from "firebase/firestore";
 import db from "../../services/firebase";
 
 import { useParams } from "react-router-dom";
@@ -16,9 +16,10 @@ import Spinner from "../Spinner/Spinner";
 const ProductDetails = () => {
 	const params = useParams();
 	const [productInfo, setProductInfo] = useState([]);
-	const [productId, setProductId] = useState("");
+	// eslint-disable-next-line
 
 	const [expanded, setExpanded] = useState(false);
+	// eslint-disable-next-line
 	const [t, i18n] = useTranslation();
 
 	// Accordion Event Handler
@@ -26,17 +27,10 @@ const ProductDetails = () => {
 		setExpanded(isExpanded ? panel : false);
 	};
 
-	const docRef = doc(db, params.macId, params.macProductId);
-
 	useEffect(
 		() =>
 			onSnapshot(collection(db, params.macId), (snapshot) => {
-				snapshot.docs
-					.filter((doc) => (doc.id === params.macProductId ? doc : false))
-					.map((item) => {
-						setProductId(item.id);
-						setProductInfo(item.data());
-					});
+				snapshot.docs.filter((doc) => (doc.id === params.macProductId ? doc : false)).map((item) => setProductInfo(item.data()));
 			}),
 		[]
 	);
@@ -69,7 +63,7 @@ const ProductDetails = () => {
 				</section>
 
 				<section className={styles.productConfig}>
-					<Accordion dir={t("dir")} expanded={expanded == "panel1"} className={styles.Accordion} onChange={handleChange("panel1")}>
+					<Accordion dir={t("dir")} expanded={expanded === "panel1"} className={styles.Accordion} onChange={handleChange("panel1")}>
 						<AccordionSummary expandIcon={<ion-icon name="chevron-down-outline" size="large"></ion-icon>} aria-controls="panel1bh-content" id="panel1bh-header">
 							<Typography className={styles.AccordionTitle} sx={{ width: "33%", flexShrink: 0, fontSize: "1.3em", fontWeight: 900 }}>
 								{t("product-information")}

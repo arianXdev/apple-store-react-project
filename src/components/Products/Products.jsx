@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { onSnapshot, collection } from "firebase/firestore";
 import db from "../../services/firebase";
 
-import { useParams, Outlet, Link } from "react-router-dom";
+import { useParams, Outlet } from "react-router-dom";
 
 import Product from "./Product";
 
