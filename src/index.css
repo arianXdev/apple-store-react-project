@@ -33,6 +33,7 @@ body {
 	background-color: #f5f5f7;
 	-webkit-tap-highlight-color: transparent;
 	-moz-tap-highlight-color: transparent;
+	scroll-behaviour: smooth;
 }
 
 a {
