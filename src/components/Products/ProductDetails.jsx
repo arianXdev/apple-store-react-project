@@ -55,10 +55,12 @@ const ProductDetails = () => {
 					</div>
 				</section>
 
-				<section className="productConfig">
+				<section className={styles.productConfig}>
 					<Accordion dir={t("dir")} expanded={expanded == "panel1"} className={styles.Accordion} onChange={handleChange("panel1")}>
 						<AccordionSummary expandIcon={<ion-icon name="chevron-down-outline" size="large"></ion-icon>} aria-controls="panel1bh-content" id="panel1bh-header">
-							<Typography sx={{ width: "33%", flexShrink: 0, fontSize: "1.3em", fontWeight: 900 }}>{t("product-information")}</Typography>
+							<Typography className={styles.AccordionTitle} sx={{ width: "33%", flexShrink: 0, fontSize: "1.3em", fontWeight: 900 }}>
+								{t("product-information")}
+							</Typography>
 						</AccordionSummary>
 						<AccordionDetails className={styles.AccordionDetails}>
 							<ul className={styles.AccordionDetailsList}>
