@@ -89,7 +89,8 @@
 	justify-content: space-between;
 	align-items: center;
 	border-bottom: 1px solid #e6e6e6cc;
-	padding: 0 1em;
+	padding: 0 4em;
+	font-weight: 700;
 }
 
 .AccordionListItem:last-of-type {
@@ -97,9 +98,64 @@
 }
 
 .AccordionItem {
+	font-size: 1.2em;
 }
 
 .AccordionConfigItem {
 	font-size: 1.35em;
 	margin: 1.7em 0;
+}
+
+@media only screen and (max-width: 992px) {
+	.ProductDetails {
+		justify-content: center;
+	}
+
+	.ProductDetails__left {
+		margin: 0;
+	}
+
+	.ProductDetails__left img {
+		max-width: 250px;
+	}
+
+	.ProductDetails__right {
+		width: 80%;
+		margin-bottom: 100px;
+	}
+
+	.productConfig {
+		padding: 0 5em;
+	}
+
+	.AccordionTitle {
+		width: 60%;
+		font-size: 1.5em;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.AccordionListItem {
+		flex-direction: column;
+	}
+
+	.AccordionListItem {
+		padding: 1.1em 0;
+	}
+
+	.AccordionConfigItem {
+		font-size: 1.5em;
+		font-weight: 800;
+		margin: 1em 0;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	.AccordionTitle {
+		font-size: 0.9em !important;
+	}
+
+	.AccordionListItem {
+		font-size: 0.7em;
+	}
 }

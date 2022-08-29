@@ -2,13 +2,13 @@ import { useState, useEffect } from "react";
 import { onSnapshot, collection } from "firebase/firestore";
 import db from "../../services/firebase";
 
-import { useParams, Outlet } from "react-router-dom";
+import { useParams, Outlet, Link } from "react-router-dom";
 
 import Product from "./Product";
 
 import styles from "./Products.module.css";
 
-const Products = ({ productName }) => {
+const Products = ({ productName, bg }) => {
 	const params = useParams();
 
 	// Macs
@@ -134,11 +134,38 @@ const Products = ({ productName }) => {
 						))}
 					</div>
 				);
+			} else if (!params.macId) {
+				return (
+					<div className={styles.products}>
+						{macStudio.map(({ id, EnglishName, PersianName, dollarPrice, rialPrice, image }, index) => (
+							<Product
+								id={id}
+								key={index}
+								name={[EnglishName, PersianName]}
+								dollarPrice={dollarPrice}
+								rialPrice={rialPrice}
+								pathName={params.macId}
+								image={image}
+								mainPage={true}
+							/>
+						))}
+					</div>
+				);
 			}
 		}
 	};
 
-	return <>{!params.macProductId ? <section className={styles.ProductsBody}>{<div className="container-lg">{getProducts()}</div>}</section> : <Outlet />}</>;
+	return (
+		<>
+			{!params.macProductId ? (
+				<section className={styles.ProductsBody} bg={bg}>
+					{<div className="container-lg">{getProducts()}</div>}
+				</section>
+			) : (
+				<Outlet />
+			)}
+		</>
+	);
 };
 
 export default Products;

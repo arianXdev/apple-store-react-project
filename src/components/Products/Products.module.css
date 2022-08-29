@@ -3,6 +3,12 @@
 	background-color: var(--bg-color);
 }
 
+.ProductsBody[bg="false"] {
+	filter: invert();
+	margin-top: 50px;
+	background-color: transparent !important;
+}
+
 .products {
 	width: 100%;
 	display: flex;

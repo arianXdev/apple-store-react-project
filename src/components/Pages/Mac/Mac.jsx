@@ -11,6 +11,8 @@ import MacBookAirIMG from "../../../assets/images/MacBookAir.webp";
 import MacMiniIMG from "../../../assets/images/MacMini.webp";
 import ProDisplayXDRIMG from "../../../assets/images/ProDisplayXDR.webp";
 
+import { Products } from "../..";
+
 const Mac = () => {
 	const [t, i18n] = useTranslation();
 	const params = useParams();
@@ -70,7 +72,17 @@ const Mac = () => {
 				</section>
 			) : null}
 
-			{params.macId ? <Outlet /> : <h1>بهترین مک بوک های سال</h1>}
+			{params.macId ? (
+				<Outlet />
+			) : (
+				<div className="container-lg">
+					<div className={styles.recommendedDevices}>
+						<h1 className={styles.recommendedTitle}>{t("recommendedDevices")}</h1>
+						<Products productName="mac" bg="false" />
+						<p style={{ margin: "40px 0" }}>{t("toBeContinued")}</p>
+					</div>
+				</div>
+			)}
 		</main>
 	);
 };
