@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 import { Link } from "react-router-dom";
@@ -9,6 +10,8 @@ import styles from "./Footer.module.css";
 const Footer = () => {
 	// eslint-disable-next-line
 	const [t, i18n] = useTranslation();
+
+	const scrollToUp = () => window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
 
 	return (
 		<footer className={styles.Footer} dir={t("dir")}>
@@ -111,10 +114,18 @@ const Footer = () => {
 					<p>Copyright © 2022 Apple Inc. All rights reserved.</p>
 
 					<div className={styles.FooterLinks}>
-						<Link to="/mac">{t("footer.Terms of Use")}</Link>
-						<Link to="/mac">{t("footer.Privacy Policy")}</Link>
-						<Link to="/mac">{t("footer.Sales and Refunds")}</Link>
-						<Link to="/mac">{t("footer.Legal")}</Link>
+						<Link onClick={scrollToUp} to="/mac">
+							{t("footer.Terms of Use")}
+						</Link>
+						<Link onClick={scrollToUp} to="/mac">
+							{t("footer.Privacy Policy")}
+						</Link>
+						<Link onClick={scrollToUp} to="/mac">
+							{t("footer.Sales and Refunds")}
+						</Link>
+						<Link onClick={scrollToUp} to="/mac">
+							{t("footer.Legal")}
+						</Link>
 					</div>
 				</div>
 			</div>
