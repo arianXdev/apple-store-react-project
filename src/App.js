@@ -22,9 +22,9 @@ const App = () => {
 				<main className={styles.Main}>
 					<div className={styles.Intro}>
 						<p className={styles.IntroText} language={language}>
-							<h2 className={styles.IntroTitle}>
-								{t("Store")}. <h3 className={styles.IntroSubtitle}>{t("subtitle")}</h3>
-							</h2>
+							<span className={styles.IntroTitle}>
+								{t("Store")}. <span className={styles.IntroSubtitle}>{t("subtitle")}</span>
+							</span>
 						</p>
 
 						<div className={styles.IntroSupport} language={language}>
