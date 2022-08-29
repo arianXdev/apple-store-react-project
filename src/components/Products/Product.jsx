@@ -5,12 +5,12 @@ import MacMiniProductIMG from "../../assets/images/products/apple-mac-studio-m1-
 
 import styles from "./Product.module.css";
 
-const Product = ({ id, name, dollarPrice, rialPrice, image }) => {
+const Product = ({ id, name, dollarPrice, rialPrice, image, mainPage }) => {
 	const [t, i18n] = useTranslation();
 
 	return (
 		<>
-			<Link className={styles.productLink} to={id} dir={t("dir")}>
+			<Link className={styles.productLink} to={mainPage ? `mac-studio/${id}` : id} dir={t("dir")}>
 				<article className={styles.product}>
 					<img className={styles["product__img"]} src={image || MacMiniProductIMG} alt="id" />
 					<h2 className={styles["product__title"]}>{t("dir") === "ltr" ? name[0] || "Apple Mac" : name[1] || "اپل مک"}</h2>

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { onSnapshot, collection } from "firebase/firestore";
 import db from "../../services/firebase";
 
-import { useParams, Outlet } from "react-router-dom";
+import { useParams, Outlet, Link } from "react-router-dom";
 
 import Product from "./Product";
 
@@ -138,7 +138,16 @@ const Products = ({ productName, bg }) => {
 				return (
 					<div className={styles.products}>
 						{macStudio.map(({ id, EnglishName, PersianName, dollarPrice, rialPrice, image }, index) => (
-							<Product id={id} key={index} name={[EnglishName, PersianName]} dollarPrice={dollarPrice} rialPrice={rialPrice} pathName={params.macId} image={image} />
+							<Product
+								id={id}
+								key={index}
+								name={[EnglishName, PersianName]}
+								dollarPrice={dollarPrice}
+								rialPrice={rialPrice}
+								pathName={params.macId}
+								image={image}
+								mainPage={true}
+							/>
 						))}
 					</div>
 				);
