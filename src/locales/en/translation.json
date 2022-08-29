@@ -26,5 +26,7 @@
 	"RAM": "RAM",
 	"Storage": "Storage",
 	"Year": "Year",
-	"no-data": "Couldn't fetch any data!"
+	"no-data": "Couldn't fetch any data!",
+	"recommendedDevices": "Recommended Devices",
+	"toBeContinued": "To Be Continued..."
 }

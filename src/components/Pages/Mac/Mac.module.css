@@ -1,5 +1,6 @@
 .Mac {
 	font-size: 16px;
+	text-align: center;
 }
 
 .topMain {
@@ -33,4 +34,16 @@
 .productsImg {
 	max-width: 64px;
 	filter: grayscale(1) invert(1);
+}
+
+.recommendedDevices {
+	padding: 40px 0;
+}
+
+.recommendedTitle {
+	text-align: center;
+	font-weight: 900;
+	font-size: 2em;
+	text-decoration: underline;
+	text-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
 }

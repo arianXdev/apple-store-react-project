@@ -8,7 +8,7 @@ import Product from "./Product";
 
 import styles from "./Products.module.css";
 
-const Products = ({ productName }) => {
+const Products = ({ productName, bg }) => {
 	const params = useParams();
 
 	// Macs
@@ -134,11 +134,29 @@ const Products = ({ productName }) => {
 						))}
 					</div>
 				);
+			} else if (!params.macId) {
+				return (
+					<div className={styles.products}>
+						{macStudio.map(({ id, EnglishName, PersianName, dollarPrice, rialPrice, image }, index) => (
+							<Product id={id} key={index} name={[EnglishName, PersianName]} dollarPrice={dollarPrice} rialPrice={rialPrice} pathName={params.macId} image={image} />
+						))}
+					</div>
+				);
 			}
 		}
 	};
 
-	return <>{!params.macProductId ? <section className={styles.ProductsBody}>{<div className="container-lg">{getProducts()}</div>}</section> : <Outlet />}</>;
+	return (
+		<>
+			{!params.macProductId ? (
+				<section className={styles.ProductsBody} bg={bg}>
+					{<div className="container-lg">{getProducts()}</div>}
+				</section>
+			) : (
+				<Outlet />
+			)}
+		</>
+	);
 };
 
 export default Products;
