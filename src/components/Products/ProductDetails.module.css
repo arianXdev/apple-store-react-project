@@ -89,7 +89,8 @@
 	justify-content: space-between;
 	align-items: center;
 	border-bottom: 1px solid #e6e6e6cc;
-	padding: 0 1em;
+	padding: 0 4em;
+	font-weight: 700;
 }
 
 .AccordionListItem:last-of-type {
@@ -97,6 +98,7 @@
 }
 
 .AccordionItem {
+	font-size: 1.2em;
 }
 
 .AccordionConfigItem {
