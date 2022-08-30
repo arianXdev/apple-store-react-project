@@ -21,11 +21,30 @@
 	--kalameh-font: KalamehWeb, IranYekan, sans-serif;
 }
 
-* {
+*,
+*:before,
+*:after {
 	margin: 0;
 	padding: 0;
 	outline: none;
 	box-sizing: border-box;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+	display: none;
+}
+
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	touch-action: manipulation;
+	-ms-touch-action: manipulation;
 }
 
 body {
@@ -61,6 +80,10 @@ button {
 	border: none;
 	cursor: pointer;
 	font-family: var(--main-font);
+}
+
+img {
+	vertical-align: middle;
 }
 
 /* Default MUI Styles */

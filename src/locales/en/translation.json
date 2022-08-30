@@ -19,6 +19,7 @@
 	"macBookPro16": "MacBook Pro 16",
 	"macMini": "Mac mini",
 	"macStudio": "Mac Studio",
+	"iMac24": "iMac 24",
 	"proDisplayXDR": "Pro Display XDR",
 	"AddToCart": "Add to Cart",
 	"product-information": "Product Information",
@@ -46,5 +47,32 @@
 		"Privacy Policy": "Privacy Policy",
 		"Sales and Refunds": "Sales and Refunds",
 		"Legal": "Legal"
+	},
+	"block": {
+		"mac": {
+			"title": "Apple Mac and iMacs",
+			"desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, expedita rem magnam minima architecto voluptatibus ut est sit inventore sed. Deserunt adipisci molestiae quisquam accusantium est velit sapiente dolorem, error odit voluptates illo debitis praesentium quas eaque maiores impedit perferendis amet ullam nisi! Aut, porro quis repellat dolore totam sunt?",
+			"showMore": "See other Mac models"
+		},
+		"iPhone": {
+			"title": "Apple iPhone",
+			"desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, expedita rem magnam minima architecto voluptatibus ut est sit inventore sed. Deserunt adipisci molestiae quisquam accusantium est velit sapiente dolorem, error odit voluptates illo debitis praesentium quas eaque maiores impedit perferendis amet ullam nisi! Aut, porro quis repellat dolore totam sunt?",
+			"showMore": "See other iPhone models"
+		},
+		"iPad": {
+			"title": "Apple iPad and its Accessories",
+			"desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, expedita rem magnam minima architecto voluptatibus ut est sit inventore sed. Deserunt adipisci molestiae quisquam accusantium est velit sapiente dolorem, error odit voluptates illo debitis praesentium quas eaque maiores impedit perferendis amet ullam nisi! Aut, porro quis repellat dolore totam sunt?",
+			"showMore": "See other iPad models"
+		},
+		"airPods": {
+			"title": "AirPods | HomePod & Apple TV",
+			"desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, expedita rem magnam minima architecto voluptatibus ut est sit inventore sed. Deserunt adipisci molestiae quisquam accusantium est velit sapiente dolorem, error odit voluptates illo debitis praesentium quas eaque maiores impedit perferendis amet ullam nisi! Aut, porro quis repellat dolore totam sunt?",
+			"showMore": "See other AirPods models"
+		},
+		"watch": {
+			"title": "Apple Watch | The Apple Smart Watch",
+			"desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, expedita rem magnam minima architecto voluptatibus ut est sit inventore sed. Deserunt adipisci molestiae quisquam accusantium est velit sapiente dolorem, error odit voluptates illo debitis praesentium quas eaque maiores impedit perferendis amet ullam nisi! Aut, porro quis repellat dolore totam sunt?",
+			"showMore": "See other Apple Watch models"
+		}
 	}
 }

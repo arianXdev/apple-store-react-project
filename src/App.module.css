@@ -1,6 +1,6 @@
 .App {
 	font-size: 16px;
-	padding: 70px 25px 0 25px;
+	padding: 70px 15px 0 15px;
 }
 
 .Intro {
@@ -32,18 +32,20 @@
 }
 
 .IntroSupport {
-	width: 21%;
+	width: 23%;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 	font-size: 14px;
-	line-height: 1.4;
+	font-weight: 500;
+	line-height: 1.5;
 }
 
 .IntroSupport[language="FA"] {
-	width: 30%;
-	line-height: 1.6;
+	width: 32.5%;
+	line-height: 1.8;
 	justify-content: space-between;
+	font-weight: 500;
 }
 
 .IntroSupportText {
@@ -55,4 +57,321 @@
 .IntroSupportTextFA {
 	font-weight: 700;
 	font-size: 0.85em;
+}
+
+/* Block */
+.Block {
+	margin: 70px 0;
+}
+
+.Block a:hover {
+	text-decoration: none;
+}
+
+.Block img {
+	width: 100%;
+}
+
+.BlockHeader {
+	border-radius: 25px;
+	overflow: hidden;
+	margin: 30px auto 25px;
+}
+
+.BlockHeader img {
+	width: 100%;
+	height: 390px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.Block.Mac .BlockContent {
+	background: #fffbf9;
+}
+
+.BlockContent {
+	border-radius: 25px;
+	overflow: hidden;
+	margin: 0 auto 30px;
+}
+
+.BlockContent > .Banner {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	align-items: stretch;
+	padding-top: 50px;
+}
+
+.BlockContent > .Banner .BannerText {
+	width: 100%;
+	max-width: calc(100% - 382px);
+	padding-right: 50px;
+}
+
+.BlockContent[dir="ltr"] > .Banner .BannerText {
+	padding-left: 50px;
+}
+
+.BlockContent > .Banner .BannerImage {
+	width: 100% !important;
+	max-width: 382px !important;
+}
+
+.Block.Mac .BlockContent > .Banner .BannerText h2 {
+	background-image: linear-gradient(225deg, #dc6e00 0, #d86749 100%);
+}
+
+.BlockContent > .Banner .BannerText h2 {
+	font-size: 35px;
+	line-height: 50px;
+	font-weight: 800;
+	background-size: 100%;
+	background-repeat: repeat;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+	margin-bottom: 15px;
+}
+
+.BlockContent > .Banner .BannerText p {
+	font-size: 13px;
+	line-height: 25px;
+	margin-bottom: 15px;
+}
+
+.BlockContent > .Banner .BannerText a {
+	font-size: 15px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+.BlockContent > .Banner .BannerImage {
+	width: 100%;
+	max-width: 382px;
+}
+
+.BlockContent .ItemList {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: flex-start;
+	align-items: stretch;
+	list-style-type: none;
+	padding: 50px;
+}
+
+.BlockContent .ItemList li {
+	width: 100%;
+	max-width: calc(100% / 3);
+	text-align: center;
+}
+
+.BlockContent .ItemList li a {
+	display: block;
+}
+
+.FeaturedSlideText {
+	padding: 20px;
+	text-align: right;
+}
+
+.BlockContent .ItemList li strong {
+	display: block;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 25px;
+	color: var(--text-color);
+}
+
+.GridList {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: flex-start;
+	align-items: stretch;
+	margin: -15px;
+}
+
+.GridItem {
+	width: 100%;
+	max-width: calc(100% / 2 - 30px);
+	margin: 15px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	align-items: stretch;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.GridImage {
+	text-align: center;
+}
+
+.GridImage img {
+	max-width: 241px;
+	margin: 0 auto;
+}
+
+.GridText {
+	padding: 50px;
+}
+
+.GridText p {
+	font-size: 25px;
+	font-weight: 800;
+	line-height: 35px;
+}
+
+.GridText a {
+	background: #e8e8ed;
+	color: #000;
+	padding: 10px 15px;
+	display: inline-block;
+	margin-top: 25px;
+	border-radius: 100px;
+	font-weight: 600;
+	margin-right: auto;
+}
+
+.Block.iPhone .BlockContent {
+	background: #fafdff;
+}
+
+.Block.iPhone .BlockContent > .Banner .BannerText h2 {
+	background-image: linear-gradient(225deg, #075bc0 0, #459383 100%);
+}
+
+.BlockContent .ItemList li span {
+	display: block;
+	text-align: center;
+	font-size: 10px;
+	color: var(--red-color);
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.Block.iPad .BlockContent {
+	background: #fbfaff;
+}
+
+.Block.iPad .BlockContent > .Banner .BannerText h2 {
+	background-image: linear-gradient(225deg, #8b42e3 0, #b316c0 100%);
+}
+
+.Block.Watch .BlockContent {
+	background: #fcf7fb;
+}
+
+.Block.Watch .BlockContent > .Banner .BannerText h2 {
+	background-image: linear-gradient(225deg, #780035 0, #b70027 100%);
+}
+
+.Block.AirPods .BlockContent {
+	background: #fdfcf7;
+}
+
+.Block.AirPods .BlockContent > .Banner .BannerText h2 {
+	background-image: linear-gradient(225deg, #da7800 0, #c89b1d 100%);
+}
+
+.GridItem.Full .GridImage img {
+	max-width: 394px;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+	.IntroText,
+	.IntroText[language="FA"] {
+		width: 100%;
+	}
+
+	.IntroSupport {
+		display: none;
+	}
+
+	.GridList {
+		margin: -10px;
+	}
+
+	.GridItem {
+		max-width: calc(100% / 2 - 20px);
+		margin: 10px;
+	}
+
+	.GridItem.Full .GridImage img {
+		max-width: 325px;
+	}
+
+	.GridImage img {
+		max-width: 185px;
+	}
+
+	.GridText {
+		padding: 25px;
+		text-align: center;
+	}
+
+	.GridText p {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.Block section {
+		padding: 0 16px;
+	}
+
+	.BlockContent > .Banner {
+		display: block;
+	}
+
+	.BlockContent > .Banner .BannerText {
+		max-width: 100%;
+		text-align: center;
+		padding: 0 25px;
+	}
+
+	.BlockContent > .Banner .BannerText h2 {
+		font-size: 25px;
+		line-height: 35px;
+		font-weight: 800;
+	}
+
+	.BlockContent > .Banner .BannerImage {
+		margin: 0 auto;
+		max-width: 325px;
+	}
+
+	.BlockContent .ItemList {
+		padding: 50px 25px;
+	}
+
+	.BlockContent .ItemList li {
+		max-width: calc(100% / 2);
+	}
+}
+
+@media only screen and (max-width: 568px) {
+	.IntroText,
+	.IntroText[language="FA"] {
+		font-size: 10px;
+	}
+
+	.GridItem {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.GridItem.Full .GridImage img {
+		padding: 50px;
+	}
 }
