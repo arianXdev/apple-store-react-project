@@ -1,6 +1,9 @@
+import { useEffect, useState } from "react";
 import { Outlet, Link, NavLink } from "react-router-dom";
 import { faApple } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import { Fab } from "@mui/material";
 
 import { useTranslation } from "react-i18next";
 
@@ -10,9 +13,28 @@ import FAB from "../FAB/FAB";
 const Navbar = () => {
 	// eslint-disable-next-line
 	const { t, i18n } = useTranslation();
+	const [FABState, setFABState] = useState(false);
 
 	// handles if one of the nav items checked
 	const activeNavItem = ({ isActive }) => (isActive ? { fontSize: "0.8em", color: "#fff" } : undefined);
+
+	const handleScrollToUp = () => window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+
+	useEffect(() => {
+		const handleScroll = (event) => {
+			if (window.scrollY > 200) {
+				setFABState(true);
+			} else {
+				setFABState(false);
+			}
+		};
+
+		window.addEventListener("scroll", handleScroll);
+
+		return () => {
+			window.removeEventListener("scroll", handleScroll);
+		};
+	}, []);
 
 	return (
 		<>
@@ -56,8 +78,21 @@ const Navbar = () => {
 			</nav>
 
 			<Outlet />
-			
+
+			{/* Change Language FAB */}
 			<FAB />
+
+			{/* SCrollToUp FAB */}
+			<Fab
+				onClick={handleScrollToUp}
+				color="primary"
+				aria-label="add"
+				className={styles.ScrollButton}
+				title="Scroll To Up"
+				style={FABState ? { opacity: "1", pointerEvents: "auto", userSelect: "auto" } : {}}
+			>
+				<ion-icon name="chevron-up-outline" title="Scroll To Up"></ion-icon>
+			</Fab>
 		</>
 	);
 };

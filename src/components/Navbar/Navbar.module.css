@@ -45,6 +45,22 @@
 	color: #fff;
 }
 
+.ScrollButton {
+	position: fixed !important;
+	bottom: 40px;
+	left: 40px;
+	opacity: 0;
+	pointer-events: none;
+	user-select: none;
+	transition: all 0.3s ease-in-out !important;
+	background-color: var(--blue-color) !important;
+	box-shadow: 0 0 20px #007bffdc !important;
+}
+
+.ScrollButton ion-icon {
+	font-size: 25px !important;
+}
+
 @media only screen and (max-width: 768px) {
 	.nav {
 		display: block;

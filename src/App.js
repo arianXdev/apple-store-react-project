@@ -1,12 +1,12 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+
 import classNames from "classnames/bind";
 
 import styles from "./App.module.css";
 
 const App = () => {
 	const { t, i18n } = useTranslation();
-
 	let cx = classNames.bind(styles);
 	let language = t("dir") === "ltr" ? "EN" : "FA" || "EN";
 
