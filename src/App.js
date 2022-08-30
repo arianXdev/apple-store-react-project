@@ -177,9 +177,9 @@ const App = () => {
 									</picture>
 								</div>
 								<div className={styles.GridText} style={{ color: "white" }}>
-									<p>بررسی، مقایسه و خرید آنلاین لوازم جانبی مک</p>
+									<p>{t("block.mac.review")}</p>
 									<Link to="/mac/accessories-mac/" title="خرید آنلاین لوازم جانبی مک">
-										خرید آنلاین
+										{t("buyOnline")}
 									</Link>
 								</div>
 							</div>
@@ -222,7 +222,7 @@ const App = () => {
 								</div>
 								<ul className={styles.ItemList}>
 									<li>
-										<Link to="/iphone/iphone-13-pro-max/" title="آیفون 13 پرو مکس">
+										<Link to="/iphone/iphone-13-pro-max/" title={t("block.iPhone.models.iPhone13ProMax")}>
 											<div className={styles.FeaturedSlide}>
 												<div className={styles.FeaturedSlideWrp}>
 													<picture>
@@ -230,15 +230,15 @@ const App = () => {
 														<img src={require("./assets/images/BlockContent-iPhone-13ProMax.webp")} />
 													</picture>
 													<div className={styles.FeaturedSlideText}>
-														<span>جدید</span>
-														<strong>آیفون 13 پرو مکس</strong>
+														<span>{t("new")}</span>
+														<strong>{t("block.iPhone.models.iPhone13ProMax")}</strong>
 													</div>
 												</div>
 											</div>
 										</Link>
 									</li>
 									<li>
-										<Link to="/iphone/iphone-13-pro/" title="آیفون 13 پرو ">
+										<Link to="/iphone/iphone-13-pro/" title={t("block.iPhone.models.iPhone13Pro")}>
 											<div className={styles.FeaturedSlide}>
 												<div className={styles.FeaturedSlideWrp}>
 													<picture>
@@ -246,15 +246,15 @@ const App = () => {
 														<img src={require("./assets/images/BlockContent-iPhone-13Pro.webp")} />
 													</picture>
 													<div className={styles.FeaturedSlideText}>
-														<span>جدید</span>
-														<strong>آیفون 13 پرو </strong>
+														<span>{t("new")}</span>
+														<strong>{t("block.iPhone.models.iPhone13Pro")}</strong>
 													</div>
 												</div>
 											</div>
 										</Link>
 									</li>
 									<li>
-										<Link to="/iphone/iphone-13/" title="آیفون 13">
+										<Link to="/iphone/iphone-13/" title={t("block.iPhone.models.iPhone13")}>
 											<div className={styles.FeaturedSlide}>
 												<div className={styles.FeaturedSlideWrp}>
 													<picture>
@@ -262,15 +262,15 @@ const App = () => {
 														<img src={require("./assets/images/BlockContent-iPhone-13.webp")} />
 													</picture>
 													<div className={styles.FeaturedSlideText}>
-														<span>جدید</span>
-														<strong>آیفون 13</strong>
+														<span>{t("new")}</span>
+														<strong>{t("block.iPhone.models.iPhone13ProMax")}</strong>
 													</div>
 												</div>
 											</div>
 										</Link>
 									</li>
 									<li>
-										<Link to="/iphone/iphone-se/" title="آیفون SE">
+										<Link to="/iphone/iphone-se/" title={t("block.iPhone.models.iPhoneSE")}>
 											<div className={styles.FeaturedSlide}>
 												<div className={styles.FeaturedSlideWrp}>
 													<picture>
@@ -278,14 +278,14 @@ const App = () => {
 														<img src={require("./assets/images/BlockContent-iPhone-SE.webp")} />
 													</picture>
 													<div className={styles.FeaturedSlideText}>
-														<strong>آیفون SE</strong>
+														<strong>{t("block.iPhone.models.iPhoneSE")}</strong>
 													</div>
 												</div>
 											</div>
 										</Link>
 									</li>
 									<li>
-										<Link to="/iphone/iphone-12/" title="آیفون 12">
+										<Link to="/iphone/iphone-12/" title={t("block.iPhone.models.iPhone12")}>
 											<div className={styles.FeaturedSlide}>
 												<div className={styles.FeaturedSlideWrp}>
 													<picture>
@@ -293,14 +293,14 @@ const App = () => {
 														<img src={require("./assets/images/BlockContent-iPhone-12.webp")} />
 													</picture>
 													<div className={styles.FeaturedSlideText}>
-														<strong>آیفون 12</strong>
+														<strong>{t("block.iPhone.models.iPhone12")}</strong>
 													</div>
 												</div>
 											</div>
 										</Link>
 									</li>
 									<li>
-										<Link to="/iphone/accessories-iphone/" title="لوازم جانبی آیفون">
+										<Link to="/iphone/accessories-iphone/" title={t("block.iPhone.models.iPhoneAccessories")}>
 											<div className={styles.FeaturedSlide}>
 												<div className={styles.FeaturedSlideWrp}>
 													<picture>
@@ -308,7 +308,7 @@ const App = () => {
 														<img src={require("./assets/images/BlockContent-iPhone-Accessory.png.webp")} />
 													</picture>
 													<div className={styles.FeaturedSlideText}>
-														<strong>لوازم جانبی آیفون</strong>
+														<strong>{t("block.iPhone.models.iPhoneAccessories")}</strong>
 													</div>
 												</div>
 											</div>
@@ -331,9 +331,9 @@ const App = () => {
 							</div>
 							<div className={styles.GridItem} style={{ background: "#7997aa" }}>
 								<div className={styles.GridText} style={{ color: "white" }}>
-									<p>کیس، کاور و قاب های منحصر بفرد و متنوع آیفون</p>
+									<p>{t("block.iPhone.review")}</p>
 									<Link to="/iphone/accessories-iphone/cases-protection-iphone/" title="خرید آنلاین کیس آیفون">
-										خرید آنلاین
+										{t("buyOnline")}
 									</Link>
 								</div>
 								<div className={styles.GridImage}>
@@ -351,9 +351,9 @@ const App = () => {
 									</picture>
 								</div>
 								<div className={styles.GridText} style={{ color: "white" }}>
-									<p>برترین مدل ها و رنگ های کیس های ایر تگ اپل</p>
+									<p>{t("block.airTag.review")}</p>
 									<Link to="/accessories/airtag-accessories/" title=" خرید آنلاین کیس ایر تگ">
-										خرید آنلاین
+										{t("buyOnline")}
 									</Link>
 								</div>
 							</div>
@@ -400,7 +400,7 @@ const App = () => {
 								</div>
 								<ul className={styles.ItemList}>
 									<li>
-										<Link to="/iphone/airpods/apple-airpods-pro-with-magsafe-charging-case/" title="ایرپاد پرو هندزفری بلوتوث اپل با قابلیت شارژ مگ سیف">
+										<Link to="/iphone/airpods/apple-airpods-pro-with-magsafe-charging-case/" title={t("block.airPods.models.airPodsPro")}>
 											<div className={styles.FeaturedSlide}>
 												<div className={styles.FeaturedSlideWrp}>
 													<picture>
@@ -408,14 +408,14 @@ const App = () => {
 														<img src={require("./assets/images/BlockContent-AirPods-Pro.png.webp")} />
 													</picture>
 													<div className={styles.FeaturedSlideText}>
-														<strong>ایرپاد پرو هندزفری بلوتوث اپل با قابلیت شارژ مگ سیف</strong>
+														<strong>{t("block.airPods.models.airPodsPro")}</strong>
 													</div>
 												</div>
 											</div>
 										</Link>
 									</li>
 									<li>
-										<Link to="/iphone/airpods/apple-airpods-3rd-generation/" title="ایرپاد هندزفری بلوتوث نسل 3 اپل">
+										<Link to="/iphone/airpods/apple-airpods-3rd-generation/" title={t("block.airPods.models.airPods3")}>
 											<div className={styles.FeaturedSlide}>
 												<div className={styles.FeaturedSlideWrp}>
 													<picture>
@@ -423,15 +423,15 @@ const App = () => {
 														<img src={require("./assets/images/BlockContent-AirPods-3.png.webp")} />
 													</picture>
 													<div className={styles.FeaturedSlideText}>
-														<span>جدید</span>
-														<strong>ایرپاد هندزفری بلوتوث نسل 3 اپل</strong>
+														<span>{t("new")}</span>
+														<strong>{t("block.airPods.models.airPods3")}</strong>
 													</div>
 												</div>
 											</div>
 										</Link>
 									</li>
 									<li>
-										<Link to="/iphone/airpods/apple-airpods-2nd-generation/" title="ایرپاد هندزفری بلوتوث نسل 2 اپل">
+										<Link to="/iphone/airpods/apple-airpods-2nd-generation/" title={t("block.airPods.models.airPods2")}>
 											<div className={styles.FeaturedSlide}>
 												<div className={styles.FeaturedSlideWrp}>
 													<picture>
@@ -439,14 +439,14 @@ const App = () => {
 														<img src={require("./assets/images/BlockContent-AirPods-2.png.webp")} />
 													</picture>
 													<div className={styles.FeaturedSlideText}>
-														<strong>ایرپاد هندزفری بلوتوث نسل 2 اپل</strong>
+														<strong>{t("block.airPods.models.airPods2")}</strong>
 													</div>
 												</div>
 											</div>
 										</Link>
 									</li>
 									<li>
-										<Link to="/iphone/airpods/apple-airpods-max/" title="ایرپاد مکس هدفون بلوتوث اپل">
+										<Link to="/iphone/airpods/apple-airpods-max/" title={t("block.airPods.models.airPodsMax")}>
 											<div className={styles.FeaturedSlide}>
 												<div className={styles.FeaturedSlideWrp}>
 													<picture>
@@ -454,14 +454,14 @@ const App = () => {
 														<img src={require("./assets/images/BlockContent-AirPods-Max.png.webp")} />
 													</picture>
 													<div className={styles.FeaturedSlideText}>
-														<strong>ایرپاد مکس هدفون بلوتوث اپل</strong>
+														<strong>{t("block.airPods.models.airPodsMax")}</strong>
 													</div>
 												</div>
 											</div>
 										</Link>
 									</li>
 									<li>
-										<Link to="/accessories/headphones-speakers/apple-homepod-mini/" title="هوم پاد مینی">
+										<Link to="/accessories/headphones-speakers/apple-homepod-mini/" title={t("block.airPods.models.HomePodMini")}>
 											<div className={styles.FeaturedSlide}>
 												<div className={styles.FeaturedSlideWrp}>
 													<picture>
@@ -469,14 +469,14 @@ const App = () => {
 														<img src={require("./assets/images/BlockContent-HomePod-Mini.png.webp")} />
 													</picture>
 													<div className={styles.FeaturedSlideText}>
-														<strong>هوم پاد مینی</strong>
+														<strong>{t("block.airPods.models.HomePodMini")}</strong>
 													</div>
 												</div>
 											</div>
 										</Link>
 									</li>
 									<li>
-										<Link to="/accessories/accessories-airpods/" title="لوازم جانبی ایرپاد">
+										<Link to="/accessories/accessories-airpods/" title={t("block.airPods.models.airPodsAccessories")}>
 											<div className={styles.FeaturedSlide}>
 												<div className={styles.FeaturedSlideWrp}>
 													<picture>
@@ -484,7 +484,7 @@ const App = () => {
 														<img src={require("./assets/images/BlockContent-AirPods-Accessory.png.webp")} />
 													</picture>
 													<div className={styles.FeaturedSlideText}>
-														<strong>لوازم جانبی ایرپاد</strong>
+														<strong>{t("block.airPods.models.airPodsAccessories")}</strong>
 													</div>
 												</div>
 											</div>
@@ -523,7 +523,7 @@ const App = () => {
 								</div>
 								<ul className={styles.ItemList}>
 									<li>
-										<Link to="/watch/apple-watch-series-7/" title="اپل واچ سری 7">
+										<Link to="/watch/apple-watch-series-7/" title={t("block.watch.models.watchSeries7")}>
 											<div className={styles.FeaturedSlide}>
 												<div className={styles.FeaturedSlideWrp}>
 													<picture>
@@ -531,15 +531,15 @@ const App = () => {
 														<img src={require("./assets/images/BlockContent-Watch-S7.png.webp")} />
 													</picture>
 													<div className={styles.FeaturedSlideText}>
-														<span>جدید</span>
-														<strong>اپل واچ سری 7</strong>
+														<span>{t("new")}</span>
+														<strong>{t("block.watch.models.watchSeries7")}</strong>
 													</div>
 												</div>
 											</div>
 										</Link>
 									</li>
 									<li>
-										<Link to="/watch/apple-watch-se/" title="اپل واچ SE">
+										<Link to="/watch/apple-watch-se/" title={t("block.watch.models.watchSeriesSE")}>
 											<div className={styles.FeaturedSlide}>
 												<div className={styles.FeaturedSlideWrp}>
 													<picture>
@@ -547,14 +547,14 @@ const App = () => {
 														<img src={require("./assets/images/BlockContent-Watch-SE.png.webp")} />
 													</picture>
 													<div className={styles.FeaturedSlideText}>
-														<strong>اپل واچ SE</strong>
+														<strong>{t("block.watch.models.watchSeriesSE")}</strong>
 													</div>
 												</div>
 											</div>
 										</Link>
 									</li>
 									<li>
-										<Link to="/watch/apple-watch-series-3/" title="اپل واچ سری 3">
+										<Link to="/watch/apple-watch-series-3/" title={t("block.watch.models.watchSeries3")}>
 											<div className={styles.FeaturedSlide}>
 												<div className={styles.FeaturedSlideWrp}>
 													<picture>
@@ -562,14 +562,14 @@ const App = () => {
 														<img src={require("./assets/images/BlockContent-Watch-S3.png.webp")} />
 													</picture>
 													<div className={styles.FeaturedSlideText}>
-														<strong>اپل واچ سری 3</strong>
+														<strong>{t("block.watch.models.watchSeries3")}</strong>
 													</div>
 												</div>
 											</div>
 										</Link>
 									</li>
 									<li>
-										<Link to="/watch/apple-watch-nike/" title="اپل واچ نایکی">
+										<Link to="/watch/apple-watch-nike/" title={t("block.watch.models.watchAccessories")}>
 											<div className={styles.FeaturedSlide}>
 												<div className={styles.FeaturedSlideWrp}>
 													<picture>
@@ -577,14 +577,14 @@ const App = () => {
 														<img src={require("./assets/images/BlockContent-Watch-Nike.png.webp")} />
 													</picture>
 													<div className={styles.FeaturedSlideText}>
-														<strong>اپل واچ نایکی</strong>
+														<strong>{t("block.watch.models.watchAccessories")}</strong>
 													</div>
 												</div>
 											</div>
 										</Link>
 									</li>
 									<li>
-										<Link to="/watch/apple-watch-series-6/" title="اپل واچ سری 6">
+										<Link to="/watch/apple-watch-series-6/" title={t("block.watch.models.watchSeries6")}>
 											<div className={styles.FeaturedSlide}>
 												<div className={styles.FeaturedSlideWrp}>
 													<picture>
@@ -592,14 +592,14 @@ const App = () => {
 														<img src={require("./assets/images/BlockContent-Watch-S6.png.webp")} />
 													</picture>
 													<div className={styles.FeaturedSlideText}>
-														<strong>اپل واچ سری 6</strong>
+														<strong>{t("block.watch.models.watchSeries6")}</strong>
 													</div>
 												</div>
 											</div>
 										</Link>
 									</li>
 									<li>
-										<Link to="/watch/accessories-watch/" title="لوازم جانبی اپل واچ">
+										<Link to="/watch/accessories-watch/" title={t("block.watch.models.watchAccessories")}>
 											<div className={styles.FeaturedSlide}>
 												<div className={styles.FeaturedSlideWrp}>
 													<picture>
@@ -607,7 +607,7 @@ const App = () => {
 														<img src={require("./assets/images/BlockContent-Watch-Accessory.png.webp")} />
 													</picture>
 													<div className={styles.FeaturedSlideText}>
-														<strong>لوازم جانبی اپل واچ</strong>
+														<strong>{t("block.watch.models.watchAccessories")}</strong>
 													</div>
 												</div>
 											</div>
@@ -630,10 +630,8 @@ const App = () => {
 							</div>
 							<div className={styles.GridItem} style={{ background: "#a8728e" }}>
 								<div className={styles.GridText} style={{ color: "white" }}>
-									<p>بررسی، مقایسه و خرید آنلاین برترین بند های اپل واچ</p>
-									<Link to="/watch/accessories-watch/band-apple-watch/" title="خرید آنلاین بند اپل واچ">
-										خرید آنلاین
-									</Link>
+									<p>{t("block.watch.review")}</p>
+									<Link to="/watch/accessories-watch/band-apple-watch/">{t("buyOnline")}</Link>
 								</div>
 								<div className={styles.GridImage}>
 									<picture>
@@ -673,7 +671,7 @@ const App = () => {
 								</div>
 								<ul className={styles.ItemList}>
 									<li>
-										<Link to="/ipad/ipad-pro/" title="یپد پرو">
+										<Link to="/ipad/ipad-pro/" title={t("block.iPad.models.iPadPro")}>
 											<div className={styles.FeaturedSlide}>
 												<div className={styles.FeaturedSlideWrp}>
 													<picture>
@@ -681,14 +679,14 @@ const App = () => {
 														<img src={require("./assets/images/BlockContent-iPad-Pro.png.webp")} />
 													</picture>
 													<div className={styles.FeaturedSlideText}>
-														<strong>آیپد پرو</strong>
+														<strong>{t("block.iPad.models.iPadPro")}</strong>
 													</div>
 												</div>
 											</div>
 										</Link>
 									</li>
 									<li>
-										<Link to="/ipad/ipad-air/" title="آیپد ایر">
+										<Link to="/ipad/ipad-air/" title={t("block.iPad.models.iPadAir")}>
 											<div className={styles.FeaturedSlide}>
 												<div className={styles.FeaturedSlideWrp}>
 													<picture>
@@ -696,14 +694,14 @@ const App = () => {
 														<img src={require("./assets/images/BlockContent-iPad-Air.png.webp")} />
 													</picture>
 													<div className={styles.FeaturedSlideText}>
-														<strong>آیپد ایر</strong>
+														<strong>{t("block.iPad.models.iPadAir")}</strong>
 													</div>
 												</div>
 											</div>
 										</Link>
 									</li>
 									<li>
-										<Link to="/ipad/ipad-mini/" title="آیپد مینی">
+										<Link to="/ipad/ipad-mini/" title={t("block.iPad.models.iPadMini")}>
 											<div className={styles.FeaturedSlide}>
 												<div className={styles.FeaturedSlideWrp}>
 													<picture>
@@ -711,14 +709,14 @@ const App = () => {
 														<img src={require("./assets/images/BlockContent-iPad-Mini.png.webp")} />
 													</picture>
 													<div className={styles.FeaturedSlideText}>
-														<strong>آیپد مینی</strong>
+														<strong>{t("block.iPad.models.iPadMini")}</strong>
 													</div>
 												</div>
 											</div>
 										</Link>
 									</li>
 									<li>
-										<Link to="/ipad/apple-pencil/" title="اپل پنسیل">
+										<Link to="/ipad/apple-pencil/" title={t("block.iPad.models.ApplePencil")}>
 											<div className={styles.FeaturedSlide}>
 												<div className={styles.FeaturedSlideWrp}>
 													<picture>
@@ -726,14 +724,14 @@ const App = () => {
 														<img src={require("./assets/images/BlockContent-Apple-Pencil.png.webp")} />
 													</picture>
 													<div className={styles.FeaturedSlideText}>
-														<strong>اپل پنسیل</strong>
+														<strong>{t("block.iPad.models.ApplePencil")}</strong>
 													</div>
 												</div>
 											</div>
 										</Link>
 									</li>
 									<li>
-										<Link to="/ipad/keyboard/" title="اسمارت کیبورد">
+										<Link to="/ipad/keyboard/" title={t("block.iPad.models.SmartKeyboard")}>
 											<div className={styles.FeaturedSlide}>
 												<div className={styles.FeaturedSlideWrp}>
 													<picture>
@@ -741,14 +739,14 @@ const App = () => {
 														<img src={require("./assets/images/BlockContent-Smart-KeyBoard.png.webp")} />
 													</picture>
 													<div className={styles.FeaturedSlideText}>
-														<strong>اسمارت کیبورد</strong>
+														<strong>{t("block.iPad.models.SmartKeyboard")}</strong>
 													</div>
 												</div>
 											</div>
 										</Link>
 									</li>
 									<li>
-										<Link to="/ipad/accessories-ipad/" title="لوازم جانبی آیپد">
+										<Link to="/ipad/accessories-ipad/" title={t("block.iPad.models.iPadAccessories")}>
 											<div className={styles.FeaturedSlide}>
 												<div className={styles.FeaturedSlideWrp}>
 													<picture>
@@ -756,7 +754,7 @@ const App = () => {
 														<img src={require("./assets/images/BlockContent-iPad-Accessory.png.webp")} />
 													</picture>
 													<div className={styles.FeaturedSlideText}>
-														<strong>لوازم جانبی آیپد</strong>
+														<strong>{t("block.iPad.models.iPadAccessories")}</strong>
 													</div>
 												</div>
 											</div>
@@ -785,10 +783,8 @@ const App = () => {
 									</picture>
 								</div>
 								<div className={styles.GridText} style={{ color: "white" }}>
-									<p>بررسی، مقایسه و خرید آنلاین مدل های اسمارت کیبورد اپل</p>
-									<Link to="/ipad/keyboard/" title="خرید آنلاین اسمارت کیبورد">
-										خرید آنلاین
-									</Link>
+									<p>{t("block.iPad.review")}</p>
+									<Link to="/ipad/keyboard/">{t("buyOnline")}</Link>
 								</div>
 							</div>
 						</div>

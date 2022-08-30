@@ -240,7 +240,14 @@
 	margin-top: 25px;
 	border-radius: 100px;
 	font-weight: 600;
+	font-size: 15px;
 	margin-right: auto;
+	transition: all 0.3s ease-in-out;
+}
+
+.GridText a:hover {
+	background-color: rgb(182, 182, 182);
+	text-decoration: none;
 }
 
 .Block.iPhone .BlockContent {
