@@ -79,10 +79,6 @@
 	padding: 0 1em;
 }
 
-.FooterLinks a:first-of-type {
-	border-left: none;
-}
-
 @media only screen and (max-width: 768px) {
 	.FooterNav {
 		padding: 0.2em 0.8em;
