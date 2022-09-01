@@ -35,8 +35,8 @@ root.render(
 					<Route path="tv" element={<TV />} />
 					<Route path="accessories" element={<Accessories />} />
 					<Route path="support" element={<Support />} />
+					<Route path="*" element={<NotFound />} />
 				</Route>
-				<Route path="*" element={<NotFound />} />
 			</Routes>
 		</BrowserRouter>
 	</React.StrictMode>
