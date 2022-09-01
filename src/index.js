@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Navbar, Mac, IPad, IPhone, Watch, AirPods, TV, Accessories, Support, Products, ProductDetails, Footer } from "./components";
+import { Navbar, Mac, IPad, IPhone, Watch, AirPods, TV, Accessories, Support, Products, ProductDetails, Footer, NotFound } from "./components";
 import App from "./App";
 
 import "./helpers/i18next";
@@ -36,14 +36,7 @@ root.render(
 					<Route path="accessories" element={<Accessories />} />
 					<Route path="support" element={<Support />} />
 				</Route>
-				<Route
-					path="*"
-					element={
-						<main style={{ padding: "1rem" }}>
-							<p>There's nothing here!</p>
-						</main>
-					}
-				/>
+				<Route path="*" element={<NotFound />} />
 			</Routes>
 		</BrowserRouter>
 	</React.StrictMode>
