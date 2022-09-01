@@ -4,6 +4,7 @@ export { default as Products } from "./Products/Products";
 export { default as ProductDetails } from "./Products/ProductDetails";
 export { default as Breadcrumb } from "./Breadcrumb/Breadcrumb";
 export { default as Footer } from "./Footer/Footer";
+export { default as NotFound } from "./NotFound/NotFound";
 
 // Pages
 export { default as Mac } from "./Pages/Mac/Mac";
